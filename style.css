@@ -1,0 +1,1216 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+body {
+    background: rgba(236, 235, 243, 0.51);
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: white;
+    height: 70px;
+}
+
+.section {
+    background: rgba(236, 235, 243, 0.51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+.grop_img {
+    margin: 1em auto;
+    display: block;
+    width: 200px;
+}
+
+.main_para {
+    background-color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    background: #6272B9;
+    border-radius: 7px;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1.2rem;
+    width: 49%;
+}
+
+.profile h1 {
+    font-size: 2rem;
+}
+
+.profile li {
+    margin-top: .75em;
+}
+
+.sign_up {
+    background: white;
+    border-radius: 7px;
+
+    padding: 1em 2em;
+    font-size: 1.2rem;
+    width: 49%;
+}
+
+.sign_up h1 {
+    font-size: 2rem;
+}
+
+input[type="text"] {
+    display: block;
+    width: 90%;
+    height: 50px;
+    padding: 0 1em;
+    font-size: 1.2rem;
+    margin-top: 1em;
+    background: rgba(236, 235, 243, 0.51);
+    border: 1px solid rgba(236, 235, 243, 0.51);
+    border-radius: 5px;
+}
+
+input[type="text"]:focus {
+    outline: 1px solid #6272B9;
+}
+
+input[type="tel"] {
+    display: block;
+    width: 90%;
+    height: 50px;
+    padding: 0 1em;
+    font-size: 1.2rem;
+    margin-top: 1.5em;
+    background: rgba(236, 235, 243, 0.51);
+    border: 1px solid rgba(236, 235, 243, 0.51);
+    border-radius: 5px;
+}
+
+input[type="tel"]:focus {
+    outline: 1px solid #6272B9;
+}
+
+input[type="password"] {
+    display: block;
+    width: 90%;
+    height: 50px;
+    padding: 0 1em;
+    font-size: 1.2rem;
+    margin-top: 1.5em;
+    background: rgba(236, 235, 243, 0.51);
+    border: 1px solid rgba(236, 235, 243, 0.51);
+    border-radius: 5px;
+}
+
+input[type="password"]:focus {
+    outline: 1px solid #6272B9;
+}
+
+select {
+    display: block;
+    width: 90%;
+    height: 50px;
+    padding: 0 1em;
+    font-size: 1.2rem;
+    margin-top: 1.5em;
+    background: rgba(236, 235, 243, 0.51);
+    border: 1px solid rgba(236, 235, 243, 0.51);
+    border-radius: 5px;
+}
+
+select:focus {
+    outline: 1px solid #6272B9;
+}
+
+.next {
+    display: block;
+    width: 40%;
+    height: 50px;
+    padding: .65em 0;
+    font-size: 1.2rem;
+    margin: 1em auto;
+    background: #6272B9;
+    border: 1px solid #6272B9;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* ==== Proof Of Occupation */
+.proof {
+    background: white;
+    margin: 2em 0;
+    padding: 2em;
+    border-radius: 7px;
+}
+
+.proof h1 {
+    margin-bottom: 1em;
+    font-size: 2rem;
+}
+
+.proof_upload {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.proof_upload p {
+    font-size: 1.2rem;
+}
+
+.btn,
+.btn1 {
+    display: block;
+    width: 20%;
+    height: 50px;
+    padding: .65em 0;
+    font-size: 1.2rem;
+    margin: 1em auto;
+    background: #6272B9;
+    border: 1px solid #6272B9;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* ======= End Of Proof Of Occupation */
+
+/* ==== Artisan Details ====== */
+.details_nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.avatar_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin: .5em 0 0 0;
+}
+
+.inbox {
+    background: #6272B9;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+    padding: .3em .5em;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 50px;
+}
+
+.avatar_img {
+    height: 50px;
+}
+
+.avatar_img img {
+    height: 48px;
+}
+
+.active_contracts {
+    background: white;
+    margin: 2em 0;
+    padding: 2em;
+    height: calc(90vh - 80px);
+    border-radius: 7px;
+}
+
+.container2 {
+    padding: .75em 1.5em;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #292B33;
+    margin-top: 2em;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container3 p {
+    margin-left: 1em;
+    font-size: 1.2rem;
+}
+
+.contracts {
+    margin-top: 3em;
+    font-size: 1.2rem;
+}
+
+.contracts h1 {
+    font-size: 2rem;
+    margin: 1em 0;
+}
+
+/*============ End Of Artisan Details =============*/
+
+/*========= Artisan Update Details ============*/
+
+.update_details {
+    background: white;
+    margin: 2em 0;
+    padding: 2em;
+    border-radius: 7px;
+}
+
+.artisan_photo {
+    display: flex;
+    align-items: center;
+}
+
+.artisan_info {
+    margin-left: 1.5em;
+}
+
+.artisan_info h1,
+.artisan_occupation h1,
+.work_history h1,
+.proof_edit h1 {
+    font-size: 1.7rem;
+}
+
+.artisan_info p {
+    font-size: 1.2rem;
+    margin: .45em 0;
+}
+
+.artisan_occupation {
+    display: flex;
+    margin: 1em 0;
+}
+
+.edit {
+    border: 1px solid #6272B9;
+    border-radius: 50%;
+    padding: .3em;
+    margin-left: 1em;
+}
+
+.artisan_details {
+    font-size: 1.2rem;
+    margin: 1em 0;
+}
+
+.artisan_details p {
+    margin: .75em 0;
+}
+
+.work_history,
+.proof_edit {
+    display: flex;
+    margin: 1em 0;
+}
+
+.artisan_work_history p {
+    margin-bottom: 1em;
+    font-size: 1.2rem;
+}
+
+.proof_img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2em 0 0 0;
+}
+
+.proof_img p {
+    font-size: 1.2rem;
+    margin: .3em 0;
+}
+
+.img {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+/*=========== End Of Artisan Update Details  ================*/
+
+
+/*============= Client Login  =============*/
+.client {
+    background: white;
+    margin: 2em 0;
+    padding: 2em;
+    height: calc(90vh - 80px);
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client_welcome {
+    background: #6272B9;
+    border-radius: 7px;
+    color: white;
+    padding: 1em 2em;
+    font-size: 3rem;
+    width: 49%;
+}
+
+.client_welcome h1 {
+    margin-top: 1.5em;
+}
+
+.client_login {
+    padding: 1em 2em;
+    font-size: 1.2rem;
+    width: 49%;
+    margin-top: 6em;
+}
+
+/*========== End Of Client Login =================*/
+
+/*========= Client SignUp ========*/
+.signup_container {
+    background: white;
+    margin: 4em 0 2em 0;
+    padding: 0 2em 2em 2em;
+    border-radius: 7px;
+}
+
+.signup_img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -2em;
+}
+
+.name_signup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstname {
+    width: 49%;
+    margin: 1em 0;
+    font-size: 1.2rem;
+}
+
+.phonenumber {
+    width: 49%;
+    font-size: 1.2rem;
+    margin: .5em 0;
+}
+
+.tel {
+    display: block;
+    height: 50px;
+    padding: 0 1em;
+    font-size: 1.2rem;
+    background: rgba(236, 235, 243, 0.51);
+    border: 1px solid rgba(236, 235, 243, 0.51);
+    border-radius: 5px;
+}
+
+.tel:focus {
+    outline: 1px solid #6272B9;
+}
+
+.address {
+    margin: 1em 0;
+    font-size: 1.2rem;
+}
+
+.password {
+    margin: 1em 0;
+    font-size: 1.2rem;
+}
+
+/*======== End Of client Signup ===========*/
+
+/*============ Client Dashboard ===========*/
+.dashboard_container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+.dashboard {
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+    padding: 2em;
+}
+
+.dashboards {
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+    padding: 2em;
+    display: none;
+}
+
+.dashboard p {
+    font-size: 2rem;
+    margin-top: 2em;
+    font-weight: 800;
+    color: #6272B9;
+}
+
+.dashboard_item {
+    width: 80%;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.dashboard_item::-webkit-scrollbar {
+    width: 0;
+}
+
+.dashboard_img {
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.dashboard_header {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard_header img {
+    margin-left: 1em;
+}
+
+.openmenu {
+    opacity: 0;
+}
+
+.dashboard_img img {
+    height: 50px;
+}
+
+.dashboard_content {
+    padding: 2em;
+}
+
+.dashboard_search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_provider {
+    width: 32%;
+    background-color: white;
+    padding: .5em 1em;
+    display: flex;
+    align-items: center;
+    margin: 2em 0;
+    border-radius: 5px;
+}
+.service_provider p{
+    margin-left: 1em;
+}
+
+input[type="search"] {
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 40px;
+    padding: 0 1em;
+    font-size: 1rem;
+}
+
+.artisan_profile_content {
+    background: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 1.5em 0;
+    /* align-items: center; */
+}
+
+.artisan_profile {
+    display: flex;
+    align-items: center;
+}
+
+.artisan_profile img {
+    height: 80px;
+    margin-right: 1em;
+}
+
+.artisan_job p {
+    font-size: 1.2rem;
+    margin-bottom: .5em;
+}
+
+.job_success p {
+    font-size: 1.2rem;
+    color: #6272B9D6;
+
+}
+
+/*=========== End Of Client DashBoard ============*/
+
+/*=========== Client See Artisan Details =============*/
+.client_see_artisan_details {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.container4 {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1536px;
+}
+
+.back {
+    padding: 2em 0;
+}
+
+.back a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.back a p {
+    margin-left: 1em;
+}
+
+.artisan_img_details {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.artisan_details_name p {
+    margin: 0 0 .5em 1em;
+}
+
+.artisan_job_success {
+    color: #6272B9D6;
+    margin: 1.3em 0 0 1em;
+}
+
+.artisan_work_details_info {
+    margin: 1.5em 0;
+}
+
+.artisan_work_details_info h1 {
+    margin: .5em 0;
+}
+
+.artisan_work_details_info p {
+    font-size: 1.2rem;
+    margin: .5em 0;
+}
+
+.btn3 {
+    border-radius: 5px;
+    padding: .5em 1em;
+    color: white;
+    background: #6272B9;
+    font-size: 1.1rem;
+    border: 1px solid #6272B9;
+}
+
+.btn4 {
+    border-radius: 5px;
+    padding: .5em 1.5em;
+    background: white;
+    color: #6272B9;
+    font-size: 1.1rem;
+    border: 1px solid #000000;
+    margin-left: 1em;
+}
+
+.artisan_work_history h2 {
+    margin: 1em 0;
+}
+
+.artisan_work_history h3 {
+    margin: 1em 0;
+    color: #6272B9;
+    font-size: 1.2rem;
+}
+
+.star_img {
+    display: flex;
+    margin: 1.5em 0;
+    align-items: center;
+}
+
+.star_img p {
+    font-size: 1.2rem;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+.proof_of_occupation_image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2em 0 0 0;
+}
+
+.proof_image p {
+    font-size: 1.2rem;
+    margin: .3em 0;
+}
+
+.proof_image img {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+/*============== End Of Client See Artisan Details ============*/
+
+/*========== Client Category ============*/
+.client_filter_artisan_details {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.client_category {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.client_filter {
+    width: 25%;
+}
+
+.client_filter h1 {
+    margin-bottom: .5em;
+    font-size: 1.7rem;
+}
+
+.filter_chekbox {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+    margin: .5em;
+    height: 30px;
+    width: 50px;
+}
+
+.filtered_client {
+    width: 75%;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.filtered_client::-webkit-scrollbar {
+    width: 0;
+}
+
+.artisan_filter_content {
+    background: white;
+    padding: 1em;
+    margin: 0;
+    border: 1px solid black;
+}
+
+/*============ End Of Client Category ============*/
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 85%;
+    }
+
+    .section {
+        height: 100%;
+    }
+
+    .main_para {
+        margin-bottom: 2em;
+    }
+
+    .profile {
+        height: 500px;
+        overflow-y: auto;
+    }
+
+    .profile h1 {
+        font-size: 1.7rem;
+    }
+
+
+    .sign_up {
+        padding: 1em 0;
+        width: 49%;
+        margin-left: 1em;
+    }
+
+    .sign_up h1 {
+        font-size: 1.7rem;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    input[type="tel"] {
+        width: 100%;
+    }
+
+    input[type="password"] {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .next {
+        width: 50%;
+    }
+
+
+    /* ==== Proof Of Occupation */
+    .proof {
+        background: white;
+        margin: 2em 0;
+        padding: 2em;
+        border-radius: 7px;
+    }
+
+    .proof h1 {
+        margin-bottom: 1em;
+        font-size: 1.7rem;
+    }
+
+    .proof_upload {
+        grid-row-gap: 1em;
+    }
+
+
+    .btn,
+    .btn1 {
+        width: 40%;
+    }
+
+    /* ======= End Of Proof Of Occupation */
+
+    /*========== Client Login ===========*/
+    .client_welcome {
+        padding: 1em;
+        font-size: 2rem;
+    }
+
+    .client_welcome h1 {
+        margin-top: 2.5em;
+    }
+
+    .client_login {
+        padding: 1em 0;
+        margin-left: 1em;
+    }
+
+    /*========== End Of Client Login ===========*/
+
+    /*============ Client Dashboard ===========*/
+
+    .dashboard {
+        width: 20%;
+        height: 100vh;
+        background-color: white;
+        padding: 1em;
+    }
+
+    .dashboard p {
+        font-size: 1.7rem;
+        margin-top: 2em;
+    }
+
+    .dashboard_search {
+        flex-direction: column;
+    }
+
+    .service_provider {
+        width: 100%;
+        padding: .5em 1em;
+        margin: .5em 0;
+    }
+
+    .service_provider:last-child {
+        margin-bottom: 1em;
+    }
+
+    /*=========== End Of Client DashBoard ============*/
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .section {
+        display: grid;
+        height: 100%;
+    }
+
+    .main_para {
+        display: grid;
+        padding: 1em;
+        margin-top: 1em;
+    }
+
+    .profile {
+        padding: 1em 2em;
+        font-size: 1rem;
+        width: 100%;
+        margin-top: 1.5em;
+    }
+
+    .profile h1 {
+        font-size: 1.5rem;
+    }
+
+    .sign_up {
+        font-size: 1rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    .sign_up h1 {
+        font-size: 1.5rem;
+        margin-top: 1em;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+
+    input[type="tel"] {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+
+    input[type="password"] {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+
+    select {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+
+    .next {
+        font-size: 1rem;
+        margin: 1em auto 0 auto;
+        padding: .75em 0;
+    }
+
+    /* ==== Proof Of Occupation =========*/
+    .proof_upload {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .proof_upload p {
+        font-size: 1rem;
+    }
+
+    .btn,
+    .btn1 {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    /* ====== End Of Proof Of occupation ============*/
+
+    /* ======== Artisan Details ====== */
+    .inbox {
+        font-size: 1rem;
+    }
+
+    .container3 p {
+        font-size: 1rem;
+    }
+
+    .contracts {
+        font-size: 1rem;
+    }
+
+    .contracts h1 {
+        font-size: 1.5rem;
+    }
+
+    /*============== End Of Artisan Details ===============*/
+
+    /*============ Artisan Update Details =================*/
+
+    .artisan_info h1,
+    .artisan_occupation h1,
+    .work_history h1,
+    .proof_edit h1 {
+        font-size: 1.5rem;
+    }
+
+    .artisan_info p {
+        font-size: 1rem;
+    }
+
+    .artisan_details {
+        font-size: 1rem;
+    }
+
+
+    .artisan_work_history p {
+        font-size: 1rem;
+    }
+
+    .proof_img {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1em;
+    }
+
+    .proof_img p {
+        font-size: 1rem;
+    }
+
+    .img {
+        height: 90%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /*============ End Of Artisan Update Details  ==============*/
+
+
+    /*============= Client Login  ================*/
+    .client {
+        flex-direction: column;
+        height: 100%;
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .client_welcome {
+        font-size: 1.7rem;
+        width: 100%;
+        height: 300px;
+    }
+
+    .client_welcome h1 {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .client_login {
+        font-size: 1rem;
+        width: 100%;
+        margin-top: 2em;
+        padding: 0;
+    }
+
+    /*============= End Of Client Login ============*/
+
+    /*========== Client SignUp ============*/
+
+    .name_signup {
+        flex-direction: column;
+    }
+
+    .firstname {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .phonenumber {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .tel {
+        font-size: 1rem;
+    }
+
+    .address {
+        font-size: 1rem;
+    }
+
+    .password {
+        font-size: 1rem;
+    }
+
+    /*=========== End Of client Signup ===========*/
+
+    /*========== Client Dashboard ==========*/
+    .dashboard_container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1536px;
+        margin: 0 auto;
+    }
+
+    .dashboard {
+        width: 50%;
+        display: none;
+    }
+
+    .dashboards {
+        width: 50%;
+        height: 100vh;
+        background-color: white;
+        padding: 2em;
+        display: none;
+        z-index: 19999;
+        position: absolute;
+        top: 0;
+        transform: translateX(-100%);
+    }
+
+    .dashboards_show {
+        display: block;
+        transform: translateX(0%);
+    }
+
+    .dashboard p {
+        font-size: 1.2rem;
+    }
+    .dashboards p {
+        font-size: 1.2rem;
+        margin-top: 2em;
+        color: #6272B9;
+    }
+
+    .dashboard_item {
+        width: 100%;
+        overflow-y: auto;
+        height: 100vh;
+    }
+
+    .openmenu {
+        opacity: 1;
+        max-height: 20px;
+        width: 20px;
+        margin-top: -.5em;
+    }
+
+    .dashboard_content {
+        padding: 1.3em;
+    }
+
+    .dashboard_search {
+        flex-direction: column;
+    }
+
+    .service_provider:first-child {
+        margin-top: 1em;
+    }
+
+    .service_provider:last-child {
+        margin-bottom: 1em;
+    }
+
+    .service_provider {
+        width: 100%;
+        margin: .5em 0;
+    }
+
+    .artisan_profile_content {
+        flex-direction: column;
+    }
+
+    .artisan_job p {
+        font-size: 1rem;
+        margin-bottom: .5em;
+    }
+
+    .job_success p {
+        font-size: 1rem;
+        color: #6272B9D6;
+        margin-left: 6em;
+    }
+
+    /*============== End Of Client Dashboard============== */
+
+    /*======= Client Category ===========*/
+    .client_filter_artisan_details {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }
+
+    .client_category {
+        flex-direction: column;
+    }
+
+    .client_filter {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    .filtered_client {
+        width: 100%;
+        margin-left: 0;
+        overflow-y: visible;
+        height: 100%;
+    }
+
+    .filtered_client::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .client_filter h1 {
+        font-size: 1.4rem;
+    }
+
+    .filter_chekbox {
+        font-size: 1rem;
+    }
+
+    input[type="checkbox"] {
+        margin: .5em;
+        height: 25px;
+        width: 40px;
+    }
+
+    .artisan_filter_content:last-child {
+        margin-bottom: 2em;
+    }
+
+    /*=========== End Of Client Category ==============*/
+}
